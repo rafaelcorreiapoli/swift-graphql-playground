@@ -1,0 +1,11 @@
+query AllFilms {
+  allFilms {
+    films {
+      id
+      episodeID
+      title
+      releaseDate
+      director
+    }
+  }
+}

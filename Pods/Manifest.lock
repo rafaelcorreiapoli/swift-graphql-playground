@@ -1,0 +1,24 @@
+PODS:
+  - Apollo (0.5.6)
+  - expanding-collection (1.0.4)
+  - iCarousel (1.8.3)
+  - Kingfisher (3.2.2)
+  - Neon (0.4.0)
+
+DEPENDENCIES:
+  - Apollo (~> 0.5.6)
+  - expanding-collection (~> 1.0.3)
+  - iCarousel
+  - Kingfisher (~> 3.0)
+  - Neon
+
+SPEC CHECKSUMS:
+  Apollo: 124ddbbca48acca75fd5f9ec5045454cb410bb31
+  expanding-collection: be78b5822d7382d3da02b52d52273f4661567a64
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  Kingfisher: 821466474ad7ffc375a4aecadfa05068cfed67b3
+  Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
+
+PODFILE CHECKSUM: 7db9b2b043b51d1df425ead4a3bc8f5fd51c478a
+
+COCOAPODS: 1.1.1

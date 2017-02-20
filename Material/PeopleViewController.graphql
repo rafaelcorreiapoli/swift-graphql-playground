@@ -1,0 +1,26 @@
+query AllPeople {
+  allPeople {
+    people {
+      name
+      birthYear
+      imageUrl
+      species {
+        name
+      }
+      
+      starshipConnection {
+        starships  {
+          name
+        }
+      }
+      vehicleConnection {
+        vehicles {
+          name
+        }
+      }
+      homeworld {
+        name
+      }
+    }
+  }
+}

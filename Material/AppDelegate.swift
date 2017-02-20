@@ -1,4 +1,4 @@
-//
+
 //  AppDelegate.swift
 //  Material
 //
@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Apollo
+
+let apollo = ApolloClient(url: URL(string: "http://192.168.1.105:3000")!)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+    
+    UIApplication.shared.statusBarStyle = .lightContent
+    
+//    UIApplication.shared.setStatusBarStyle(.default, animated: true)
     return true
   }
 
